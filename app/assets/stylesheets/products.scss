@@ -41,9 +41,26 @@ table tr td {
 		}
 	
 	.list_line_even {
-		background: #e0f8f8;
+		background: #000000;
+		
+		dl{
+			color: #FCBC04;	
+		}
+		
+		dt{
+			color: #FCBC04;
+		}
 		}
 	
 	.list_line_odd {
-		background: #f8b0f8;
+		background: #FCBC04;
+		
+		dl{
+			color: #000000;	
+		}
+		
+		dt{
+			color: #000000;
+		}
+		
 		}
