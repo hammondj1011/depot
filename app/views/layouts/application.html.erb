@@ -10,6 +10,25 @@
   </head>
 
   <body class='<%= controller.controller_name %>'>
-    <%= yield %>
+	<div id="banner">
+		<%= image_tag 'hs1.jpg', alt: 'Hashim Supplies' %>
+		<span class="title"><%= @page_title %></span>
+	</div>
+	
+	<div id="columns">
+		<div id="side">
+			<ul>
+				<li><a href="http://www.jeff-hammond.com/">Home</a></li>
+				<li><a href="http://www.jeff-hammond.com/faq">FAQ</a></li>
+				<li><a href="http://www.jeff-hammond.com/news">News</a></li>
+				<li><a href="http://www.jeff-hammond.com/product_directors">Product Directors</a></li>
+				<li><a href="http://www.jeff-hammond.com/contact">Home</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="main">
+		<%= yield %>
+	</div>
   </body>
 </html>
