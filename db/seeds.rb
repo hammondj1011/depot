@@ -25,7 +25,7 @@ Product.create!(title: 'Learn Ruby Stuff Today',
 #...
 Product.create!(title: 'Uncle Matt',
 	description: %{<p>stuff goes here</p>},
-	image_url: '7apps.jpg',
+	image_url: 'http://1.bp.blogspot.com/-X_06ibG2vSE/Wu51A6wNCyI/AAAAAAAACF0/TWzfILZtc2kEeEhj1rpyLOFurCC8E3u6wCK4BGAYYCw/s1600/SKWAT.gif',
 	price: 19.95)	
 #...
 
