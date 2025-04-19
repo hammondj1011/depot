@@ -7,3 +7,13 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Product.delete_all
+
+Product.create!(title: 'test123',
+description: %{<p>
+		<em>Magic!</em>
+		This is a description
+		</p>},
+image_url: 'rails2.jpg',
+price: 28.00)
